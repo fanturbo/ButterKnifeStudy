@@ -39,7 +39,7 @@ import static pub3.war.butterknife_compiler.ButterKnifeProcessor.isSubtypeOfType
  * A set of all the bindings requested by a single type.
  */
 final class BindingSet {
-    static final ClassName UTILS = ClassName.get("butterknife.internal", "Utils");
+    static final ClassName UTILS = ClassName.get("pub3.war.butterknife.internal", "Utils");
     private static final ClassName VIEW = ClassName.get("android.view", "View");
     private static final ClassName CONTEXT = ClassName.get("android.content", "Context");
     private static final ClassName RESOURCES = ClassName.get("android.content.res", "Resources");
@@ -49,7 +49,7 @@ final class BindingSet {
             ClassName.get("android.support.annotation", "CallSuper");
     private static final ClassName SUPPRESS_LINT =
             ClassName.get("android.annotation", "SuppressLint");
-    private static final ClassName UNBINDER = ClassName.get("butterknife", "Unbinder");
+    private static final ClassName UNBINDER = ClassName.get("pub3.war.butterknife", "Unbinder");
     static final ClassName BITMAP_FACTORY = ClassName.get("android.graphics", "BitmapFactory");
     static final ClassName CONTEXT_COMPAT =
             ClassName.get("android.support.v4.content", "ContextCompat");

@@ -1,0 +1,10 @@
+diff a/app/build.gradle b/app/build.gradle	(rejected hunks)
+@@ -6,7 +6,7 @@
+     defaultConfig {
+         applicationId "pub3.war.butterknifestudy"
+         minSdkVersion 18
+-        targetSdkVersion 25
++        targetSdkVersion 23
+         versionCode 1
+         versionName "1.0"
+         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"

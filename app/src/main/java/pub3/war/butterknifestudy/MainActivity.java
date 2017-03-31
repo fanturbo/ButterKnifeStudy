@@ -18,9 +18,9 @@ import pub3.war.butterknife_annotations.BindView;
  */
 public class MainActivity extends AppCompatActivity {
     @BindView(R.id.text_view)
-    private TextView textView;
+    TextView textView;
     @BindView(R.id.toolbar)
-    private Toolbar toolbar;
+    Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
